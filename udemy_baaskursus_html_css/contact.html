@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Testing HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Kodu</a> </li>
+            <li><a href="about.html">Minust</a> </li>
+            <li><a href="contact.html">Kontakt</a> </li>
+            <li><a href="https://www.google.ca/">Google</a></li>
+        </ul>
+    </nav>
+    <div id="wrapper">
+        <h1>Kontakt</h1>
+    <form action="contact.html" id="contact">
+        <fieldset>
+            <div>
+                <label for="name">Nimi</label>
+                <input type="text" name="name" id="name"> </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"> </div>
+            <div>
+                <label for="seldept">Osakond</label>
+                <select name="seldept" id="seldept">
+                    <option value="1">Turundus</option>
+                    <option value="2">Müük</option>
+                    <option value="3">Kohalevedu</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Sõnum</label>
+                <br>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Saada päring"></div>
+        </fieldset>
+    </form>
+    </div>
+    
+    <footer class="clear" id="footer">&copy Eva Margaret Videvik 2024</footer>
+</body>
+</html>
